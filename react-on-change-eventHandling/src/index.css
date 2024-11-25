@@ -1,0 +1,122 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000; 
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.form-container {
+    background-color: #fff;
+    padding: 20px 40px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}.student-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+
+    text-align: left;
+}
+
+.student-card h4 {
+    font-size: 1.25rem;
+    color: #333;
+  
+}
+
+.student-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.student-card p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.student-card {
+    border-left: 4px solid #4CAF50;
+}
+
+
+
+
+

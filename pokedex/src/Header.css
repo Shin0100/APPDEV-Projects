@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo/title and nav links */
+    background: linear-gradient(135deg, #ff00008a, #1e8fff93); /* Red to Blue gradient */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo-title {
+    display: flex;
+    align-items: center; /* Center logo and title vertically */
+}
+
+.pokedex-logo {
+    width: 150px; /* Adjust logo size */
+    height: auto;
+    margin-right: 20px; /* Space between logo and title */
+}
+
+.pokedex-title {
+    font-size: xx-large;
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow for better contrast */
+}
+
+.header-nav {
+    display: flex;
+    gap: 20px; /* Space between navigation links */
+}
+
+.nav-link {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.5rem; /* Font size for links */
+}
+
+

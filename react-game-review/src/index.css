@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    height: 100vh;            /* Full viewport height */
+  }
+  
+  /* Main container styling */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  h1, h4 {
+    color: #6c5ce7; /* Purple color */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    outline: none;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #6c5ce7; /* Focus state with purple border */
+    box-shadow: 0 0 8px rgba(108, 92, 247, 0.5);
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #5a4bcf; /* Slightly darker on hover */
+  }
+  
+  /* Review Cards */
+  .review-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #6c5ce7;
+    text-align: left;
+  }
+  
+  .review-card h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .review-card h5 {
+    font-size: 1.2rem;
+    color: #d63031; /* Red for the title */
+    font-weight: bold;
+  }
+  
+  .review-card p {
+    color: #636e72;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .review-card p strong {
+    color: #d63031; /* Red for important text like date */
+    font-weight: bold;
+  }
+  
