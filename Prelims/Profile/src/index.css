@@ -1,0 +1,122 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e5f5f5; 
+}
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+} */
+.container{
+  background: rgba(255, 255, 255, 0.13); 
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid #d2b48caf; 
+  display: flex;
+  gap: 5rem;
+  flex: 1 1 calc(33.333% - 1rem);
+
+}
+
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp3284848.gif");
+  background-size: cover;  
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  color: #333;  
+  margin: 0;  
+  height: auto; 
+}
+
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(245, 245, 220, 0.9); 
+  border-radius: 15px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+.person li {
+    background-color: #f1f1f100; 
+    border-radius: 5px; 
+    margin: 1px 0; 
+    padding: 2px; 
+    font-size: 1rem; 
+}
+
+.person-picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #d2b48c; 
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.person-info {
+  color: #333; 
+}
+
+.intro-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #d2b48c;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #d2b48c;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+  text-align: left;
+  list-style: none;
+}
+
+.hobb{
+  font-size: 20px;
+  margin: 1px 0;
+  list-style: circle;
+  color: var(--clr-grey-5);
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #d2b48c; 
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #bd8a37; 
+  text-decoration: underline;
+}
